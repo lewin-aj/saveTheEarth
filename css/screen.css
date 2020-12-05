@@ -1,0 +1,397 @@
+/* CSS Document for Save Our Earth */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800|Roboto:300italic,700italic,300,700');		/* from www.google.com/fonts */
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Holtwood+One+SC');		/* from www.google.com/fonts */
+
+body { font-family: "Open Sans", Arial, sans-serif; font-weight: 300; color: #555; margin: 0; padding: 0; }	/* base font is 16px */
+
+#page { max-width: 1200px; margin: 0 auto; position: relative; } 		
+
+/* Text ---------------------------------------------------------------------------------------------------------------------------------------- */
+
+h1.title-name { margin: 0 0 1em 0; font-size: 2.8em; font-weight: 700; }
+
+h1 { margin: 0; padding-top: 70px; font-size: 1.8em; font-weight: 700; }
+h2 { margin: 0 0 .5em 0; font-size: 1.3em; font-weight: 700; line-height: 1.1em; }
+h3 { margin: 0 0 .5em 0; font-size: 1.1em; font-weight: 700;  }  
+h4 { margin: 0 0 1.5em 0; font-size: 1em; font-weight: 700; }
+
+p { margin: 0 0 1em 0; }
+
+a { color: #007eff; }
+a:visited { color: #65b1ff; }
+
+a.name-link { color: #007eff; }
+a.name-link:visited { color: #65b1ff; }
+
+a.button-white { font-size: 1em; text-decoration: none; color: #fff; border: 1px solid #fff; padding: 4px 10px; transition: background-color .5s; }  
+a.button-white:hover { background-color: rgba(0,0,0,.3); }   	
+
+a.button-black { font-size: 1em; text-decoration: none; color: #000; border: 1px solid #000; padding: 4px 10px; transition: background-color .5s; } 
+a.button-black:hover { background-color: rgba(25,25,25,.3); }   	
+
+div.soe-button {
+	margin: 0 0 10px 10px; width: 130px; text-align: center; background-color: #71a412; padding: 10px 15px; border-radius: 5px;
+}
+div.soe-button a.soe-button-style {
+	color: #fff; font-size: 1em; letter-spacing: 1px; text-decoration: none; text-shadow: 0px 2px 2px #3a5606; font-family: Arial, Helvetica, sans-serif;
+}
+div.soe-button:hover {
+	background-color:maroon;
+	text-decoration: none;
+}
+div.soe-button a.soe-button-style:hover {
+	text-decoration: none;
+}
+/* Header -------------------------------------------------------------------------------------------------------------------------------------- */
+
+header { height: 90px; position: relative; width:100%; background-color:maroon; }
+header::after { content:''; display:block; clear:both; }
+
+div.hero { padding: 0 5px; }
+div.hero h2 { line-height: 1em; color: #3f5f5f;}
+
+/* Navigation ---------------------------------------------------------------------------------------------------------------------------------- */
+
+nav { position: relative; padding: 3px 0 3px 20px; text-align:left; background-color: maroon; } 
+nav::after { content:''; display:block; clear:both; }
+
+nav a.logo { z-index: 1; display:inline-block; text-decoration:none; } 
+nav a.logo h1 { font-family: 'Open Sans', sans-serif; display:inline-block; padding: 2px; font-size: 2em; color:#eee; font-variant: small-caps; font-weight:800; margin: 0;}
+nav img.logo { display:inline-block; height:37px; width:40px; float:left; padding-right:10px; margin-top:5px;}
+nav img.socialmedia-logo { display:inline-block; width:36px; height:36px; float:right; padding-right:10px; margin-top:5px;}
+
+div.navBarColumn { width: 10%; text-align:center; float:left; font-family: 'Open Sans', sans-serif; display:inline-block; padding: 7px; font-size: 1.0em; color:#eee; font-weight:400; }
+div.navBarColumn::after { content:''; display:block; clear:both; }
+div.navBarColumn:hover { background-color: #3f5f5f; }
+div.navBarColumn-active { background-color: #3f5f5f !important; }
+
+/* Main Page - Circle and Text Box ------------------------------------------------------------------------------------------------------------- */
+
+div.mainCircle { width:500px; height:500px; margin-left: 10px; float:left; }
+div.mainBoxRight { width:600px; min-height:500px; height:auto; margin-right:20px; float:right; background-color:#fff; border: solid 1px #fff; }
+
+div.mainContentArea { color: black; height: 100%; min-height: 100px; }
+
+table.bars tr:nth-child(even) { background: #eee; }
+table.bars tr:nth-child(odd) { background: #fff; }
+
+/* Main Images on Pages ------------------------------------------------------------------------------------------------------------------------ */
+
+div.cosmos-earth-space { padding: 0px; background: url(../images/cosmos-earth-space-5439_1200.jpg) no-repeat 0px 0px; min-height: 476px; } 
+div.amazon-branches-dawn { padding: 0px; background: url(../images/amazon-branches-dawn-975771_1200.jpg) no-repeat 0px 0px; min-height: 491px; } 
+
+/* Sections - All ------------------------------------------------------------------------------------------------------------------------------ */
+
+section { padding: 0 0px; }  
+section::after { content:''; display: block; clear: both; }		
+
+section.white-block { background-color: #fff; padding-top: 20px; padding-bottom: 20px; color: #000; }
+section.white-block-noborder { background-color: #fff; padding-top: 20px; padding-bottom: 20px; color: #000; }
+section.grey-block { background-color: #d6d6d6; padding-top: 20px; padding-bottom: 20px; color: #000; }
+
+section.white-block::after { border-style: solid; border-width:0 0 1px 0; border-color: #eee; }
+
+article.content { padding:0px; margin: 8px; height:100%; }
+article.content a { margin-left: 0px; color: #246ADF; text-decoration:none; font-weight:300; }
+article.content a:hover { text-decoration:underline; }
+
+article.content-newhref { padding:0px; margin: 8px; height:100%; }
+article.content-newhref a { margin-left: 0px; text-decoration:none; font-weight:300; }
+article.content-newhref a:hover { text-decoration:underline; }
+
+/* Sections ------------------------------------------------------------------------------------------------------------------------------------ */
+
+section.changes { background-color: #e7e6e1; padding-top: 30px; padding-bottom: 30px; color: #000; }  
+section.changes article { padding: 0px 20px 0px 342px;  background: url(../images/saveourearth-ukforests.jpg) no-repeat 0 5px; min-height: 220px;} 
+
+section.about-past { background-color: #fff; padding-top: 30px; padding-bottom: 30px; color: #000; }  
+section.about-past article { padding: 0px 20px 0px 410px;  background: url(../images/saveourearth-downingstreet-petition.jpg) no-repeat 0 5px; min-height: 260px;} 
+
+section.about-us { background-color: #f6f6f6; padding-top: 30px; padding-bottom: 30px; color: #000; }  
+section.about-us article { padding: 0px 20px 0px 410px;  background: url(../images/amazon-branches-dawn_358.jpg) no-repeat 0 5px; min-height: 220px; } 
+
+section.lawtrees { background-color: #fff; padding-top: 0px; padding-bottom: 0px; color: #000; }  
+section.lawtrees article { padding: 0px 350px 0px 0px;  background: url(../images/treelaw.jpg) no-repeat right 5px; min-height: 220px;} 
+
+
+/* Horizontal spacer lines in The Report section ------------------------------------------------------------------------------------------------ */
+
+.hr-text {
+    font-size: 20px;
+    position: relative;
+    border: 0;
+    height: 1.5em;
+}
+.hr-text::before {
+	content: "";
+	background: linear-gradient(to right, transparent, #b2b2b2 , transparent);
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	height: 1px;
+}
+.hr-text::after {
+	content: attr(data-content);
+	position: relative;
+	display: inline-block;
+	color: black;
+	padding: 0 0.5em;
+	line-height: 1.5em;
+	color: #000;
+	background-color: white;
+}
+.styled-line {
+	max-width: 90%;
+	margin: 40px auto;
+	text-align: center;
+}
+
+/* Download Buttons in The Report section ------------------------------------------------------------------------------------------------------ */
+
+.download-button {
+	margin: 0 0 10px 30px; width: 250px; text-align: center; background-color:maroon; padding: 10px 15px; border-radius: 5px;
+}
+.download-button-nomargin {
+	margin: 0 0 10px 0px; width: 250px; text-align: center; background-color:maroon; padding: 10px 15px; border-radius: 5px;
+}
+.download-button-wide {
+	margin: 0 0 10px 30px; width: 350px; text-align: center; background-color:maroon; padding: 10px 15px; border-radius: 5px;
+}
+.download-button a.download-style, .download-button-wide a.download-style, .download-button-nomargin a.download-style {
+	color: #fff; font-size: 1em; letter-spacing: 1px; text-decoration: none; text-shadow: maroon; font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Blockquote in Books -------------------------------------------------------------------------------------------------------------------------- */
+
+blockquote { margin: 0; width: 40%; color: #444; background-color: #fff; float:right; }  
+blockquote p { margin: 10px 30px 20px 30px; } 
+blockquote p.quote { font-style: italic; font-size: .9em; }
+blockquote p.credit { color: #777; font-size: .9em; margin-top: 0; padding-left: 20px; line-height: 1.1em; position:relative; }  
+
+blockquote p.quote::before { content:'\201c'; color: #d2bd65; font-size: 3em; font-family: serif; } 	/* characters are Unicode values */
+blockquote p.quote::after { content:'\201d'; font-family: serif; } 										/* characters are Unicode values */
+blockquote p.credit::before { content:'\2014'; position:absolute; top: -1px; left:0px; } 				/* characters are Unicode values */
+blockquote::after { clear:both; }
+
+/* Image styles -------------------------------------------------------------------------------------------------------------------------------- */
+
+.issues-image {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 20px 0px 20px 0px;
+}
+.image-style {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 20px 0px 20px 0px;
+}
+
+.image-credit {
+	width: 200px;
+	height: auto;
+	margin: 0;
+	padding: 20px 0px 20px 0px;
+}
+
+div a img.download_file { width: 22px; height: 22px; float: left; }
+div.center-photo { width: 30%; float: left; margin-left: auto; margin-right: auto; display: inline-block; }
+img.error-tree { width: 320px; height: auto; margin-left: auto; margin-right: auto; }
+img.lrff-logo { height: auto; width: 25%; }
+img.rainforest-map { height: auto; width:auto; }
+
+/* Footer -------------------------------------------------------------------------------------------------------------------------------------- */
+
+footer { 
+	font-size: .9em; 
+	margin-top: 20px; 
+	color:#fff; 
+	height:270px; 
+	background-color: #222; 
+	
+	position: relative;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+footer .content { 
+	margin: 0px 30px 20px 30px;
+	display: inline; 
+	padding: 10px;
+	background-color: #222;
+}  
+footer .align-left {  
+	float: left; 
+	clear: left;
+}  
+footer .align-right { 
+	float: right;
+	clear: right;
+}
+
+footer .useful-left {
+	float: left; 
+	width: 40%;
+}
+footer .useful-right {
+	float: right;
+	width: 40%;
+}
+footer p { margin: 0 0 .5em 0; }
+
+footer a { margin-left: 0px; color: #888; text-decoration:none; font-weight:300; }
+footer a:visited { color: #888; }
+footer a:hover { color: #eee; text-decoration: underline; }
+
+.header-icon { vertical-align: top; display: inline-block; padding: 15px; margin: 0px; }
+
+
+	/* Sections */
+	section.about-past article { padding: 230px 20px 0px 20px; background-size: 300px auto; background-position: center top; min-height: 150px; } 
+	section.about-us article { padding: 230px 20px 0px 20px; background-size: 300px auto; background-position: center top; min-height: 150px; } 
+	section.changes article { padding: 420px 20px 0px 20px; background-size: 300px auto; background-position: center top; min-height: 150px; } 
+	section.farmers-market article { padding: 250px 0px 0px 0px; background-size: 300px auto; background-position: center top; min-height: 150px; } 
+	section.profile-frank article { padding: 220px 0px 0px 0px; background-size: 157px auto; background-position: center top; min-height: 160px; } 
+	section.lareserva article { padding: 235px 0px 0px 0px; background-size: auto 225px; background-position: center top; min-height: 230px; }  
+	section.lawtrees article { padding: 217px 0px 0px 0px;  background-size: auto 207px ; background-position: center top; min-height: 150px; } 
+	section.earth-postage article { padding: 284px 0px 0px 0px; background-size: auto 242px ; background-position: center top; min-height: 240px; } 
+	section.xmastree-2002 article { padding: 310px 0px 0px 0px; background-size: auto 300 ; background-position: center top; min-height: 300px; }
+	section.nativeart-2002 article { padding: 166px 0px 0px 0px; background-size: auto 156px ; background-position: center top; min-height: 156px; }
+	section.santa-china article { padding: 420px 0px 0px 0px; background-size: auto 410px ; background-position: center top; min-height: 400px; }
+
+	blockquote { float: left; width: 100%; margin-left: 1em; margin-right: 1em; }
+	
+	div.center-photo { width: 94%; float: left; margin-top: 10px; margin-right: 10px; display: block; }
+@media screen and (max-width: 768px) {
+	
+	/* Header */
+	header { height:80px; }
+
+	img.main-logo { display: block; width: 430px; height: auto; margin-left: auto; margin-right: auto; }
+	div.mainBoxRight { float:left; display: block; width: 100%; margin:10px 10px; height: auto; min-height: 400px; }
+
+	/* Contact Form */
+	.contact-form { width: 90%; padding: 15px; margin: 30px auto; }
+	
+}
+	
+@media screen and (max-width: 766px) {
+	
+
+	/* Footer */
+	footer { font-size: .8em; }
+	footer { height: 270px; padding-bottom: 0px; }
+	footer div.content.align-left { float: left; display: block; }
+	footer div.content.align-right { float: right; display: block; padding: 0px; vertical-align:top; bottom: 30px; }
+	
+}
+
+@media screen and (max-width: 675px) {
+	
+	/* Header */
+	img.main-logo { display: block; width: 430px; height: auto; margin-left: auto; margin-right: auto; }
+
+	div.mainBoxRight { float:left; display: block; width: 100%; margin:10px 10px; height: auto; }
+
+	/* Sections */
+	section.earthwalker article { padding: 200px 0px 0px 0px; background-size: 125px auto; background-position: center top; min-height: 190px; } 
+	section.rockdust article { padding: 370px 0px 0px 0px;  background-size: 240px auto; background-position: center top; min-height: 370px; } 
+	section.junk-mail article { padding: 178px 0px 0px 0px; background-size: 224px auto; background-position: center top; min-height: 128px; } 
+	section.student article { padding: 266px 0px 0px 0px;  background-size: 181px auto; background-position: center top; min-height: 267px; } 
+	section.dorothy article { padding: 140px 0px 0px 0px; background-size: 162px auto; background-position: center top; min-height: 150px; } 
+	section.xmashouse article { padding: 143px 0px 0px 0px; background-size: 200px auto; background-position: center top; min-height: 150px; } 
+	section.ethical-rainforest article { padding: 155px 0px 0px 0px; background-size: 221px auto; background-position: center top; min-height: 130px; } 
+	section.ethical-gift article { padding: 250px 0px 0px 0px; background-size: 160px auto; background-position: center top; min-height: 160px; } 
+
+}
+@media screen and (max-width: 667px) {
+}
+@media screen and (max-width: 656px) {
+
+	h2 { font-size: 1.1em; }
+	h3 { margin-bottom: 0px; }
+
+	div.mainBoxRight { float:left; display: block; width: 98%; margin:10px 10px; height: auto; }
+
+}
+
+@media screen and (max-width: 601px) {
+
+	div.navBarColumn { padding: 6px; font-size: 0.9em; width:14%; }
+
+	div.cosmos-earth-space { padding: 0px; background: url(../images/cosmos-earth-space-5439_625.jpg) no-repeat 0px 0px; min-height: 248px;} 
+	div.amazon-branches-dawn { padding: 0px; background: url(../images/amazon-branches-dawn-975771_625.jpg) no-repeat 0px 0px; min-height: 256px;} 
+
+	/* Images */
+	img.rainforest-map { height: auto; width:100%; }
+	
+}
+
+@media screen and (max-width: 569px) {
+}
+
+@media screen and (max-width: 480px) {
+	/* Header */
+	header { background: none; height: auto;}
+	header nav a.logo h1 { font-size: 1.4em; padding: 3px 0px 0px 0px }
+	blockquote { float: left; width: 100%; margin-left: 1em; margin-right: 1em; }
+	.navigation-container { height: auto;  }
+	div.navBarColumn {
+		display: block;
+		font-size: 14px;
+		width:97%;
+		font-weight: normal;
+		padding: 5px;
+		-moz-border-radius: 7px;
+		-webkit-border-radius: 7px;
+		border-radius: 7px;
+		position: relative;
+		text-align: center;
+		background-color:maroon;
+		margin: 1px 2px;
+		height: 24px;
+	}
+	
+}
+@media screen and (max-width: 426px) {
+
+	/* Header */
+	img.main-logo { display: block; width: 400px; height: auto; margin-left: auto; margin-right: auto; }
+
+	/* Articles */
+	article.content { font-size: 0.8em; margin-left: 10px; margin-right: 10px; width: 95%; }
+
+
+	/* Download buttons */
+	.download-button { margin: 0 0 10px 10px; width: 200px; padding: 10px 15px;} 
+    .download-button-wide { margin: 0 0 10px 10px; width: 250px; padding: 10px 15px;}
+    a.download-style { font-size: .8em; }
+
+	/* Footer */
+	footer { height: 300px; padding-bottom: 15px; width:100%; margin-top: 0px; }
+	footer div.content.align-left { float: left; display: block; padding: 5px; position: relative; top: 0px; left: 5px; }
+	footer div.content.align-right { float: left; display: block; padding: 5px; position: relative; top: 0px; left: 5px; }
+
+}
+
+@media screen and (max-width: 400px) {
+
+	/* Header */
+	img.main-logo { display: block; width: 360px; height: auto; margin-left: auto; margin-right: auto; }
+
+	/* Sections */
+	section.changes article { padding: 420px 5px 0px 5px; background-size: 300px auto; background-position: center top; min-height: 150px; } 
+	section.about-past article { padding: 230px 5px 0px 5px; background-size: 300px auto; background-position: center top; min-height: 150px; } 
+	section.about-us article { padding: 230px 5px 0px 5px; background-size: 300px auto; background-position: center top; min-height: 150px; } 
+
+	/* Footer */
+	footer { height: 300px; padding-bottom: 15px; margin-top: 0px; }
+
+	footer div.content.align-left { float: left; display: block; padding: 5px; position: relative; top: 0px; left: 5px; }
+	footer div.content.align-right { float: left; display: block; padding: 5px; position: relative; top: 0px; left: 5px; }
+}
